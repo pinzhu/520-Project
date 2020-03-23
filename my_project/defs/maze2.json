@@ -1,0 +1,19 @@
+{
+    "name": "Block",
+    "type": "static",
+    "description": "This is a static block which cannot rotate",
+    "shape": [
+        { "x": -5, "y": 5 },
+        { "x": 5, "y": 5 },
+        { "x": 5, "y": -5 },
+        { "x": -5, "y": -5 }
+    ],
+    "friction": {
+      "collision": 1,
+      "linear": 40,
+      "rotational": 60
+    },
+    "sensors": [],
+    "mass": 1,    
+    "controller": "lib/maze.so"
+}

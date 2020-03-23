@@ -1,0 +1,19 @@
+{
+    "name": "Block",
+    "type": "static",
+    "description": "This is a static block",
+    "shape": [
+        { "x": -10, "y": 10 },
+        { "x": 10, "y": 10 },
+        { "x": 10, "y": -10 },
+        { "x": -10, "y": -10 }
+    ],
+    "friction": {
+      "collision": 1,
+      "linear": 40,
+      "rotational": 60
+    },
+    "sensors": [],
+    "mass": 1,    
+    "controller": "lib/maze.so"
+}
