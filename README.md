@@ -40,7 +40,7 @@ http://localhost
 To stop the simulation, press control+C.
 
 ## Project Key Challenges and Addressed
-The key challenges in this project is that it is time consuming to design, scale and draw blocks for the maze. It is hard to make the coordinates accurate and blocks algin. Later I decide to build a grid to make maze coordiates more visible and delete the grid after the maze is done.
+The key challenges in this project is that it is time consuming to design, scale and draw blocks for the maze. It is hard to make the coordinates accurate and blocks on the same line. Later I decide to draw a grid on a piece of paper to make maze coordiates more visible when I draft the maze.
 
 
 ## Project Acknowledgements
